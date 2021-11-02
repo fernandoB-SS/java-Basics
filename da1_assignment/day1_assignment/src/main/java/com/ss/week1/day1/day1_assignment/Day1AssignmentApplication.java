@@ -20,6 +20,8 @@ public class Day1AssignmentApplication {
 			// new column
 			System.out.println();
 		}
+		System.out.println("..........");
+		System.out.println();
 	}
 
 	// Inverted right triangle function
@@ -27,6 +29,7 @@ public class Day1AssignmentApplication {
 	public static void invertedRightTriangle(int n) {
 		// int counter varibables for rows and columns
 		int i, j;
+		System.out.println("..........");
 		// outer-for loop to create # of rows
 		for (i = n; i > 0; i--) {
 			// inner-for loop to create # of columns
@@ -37,6 +40,7 @@ public class Day1AssignmentApplication {
 			// new column
 			System.out.println();
 		}
+		System.out.println();
 	}
 
 	// Star Pyramid
@@ -59,6 +63,8 @@ public class Day1AssignmentApplication {
 			// new column
 			System.out.println();
 		}
+		System.out.println("..........");
+		System.out.println();
 	}
 
 	// Inverted Star Pyramid
@@ -67,6 +73,7 @@ public class Day1AssignmentApplication {
 		// int counter varibables for rows and columns
 		int i, j;
 		// outer-for loop to create # of rows
+		System.out.println("..........");
 
 		for (i = n; i > 0; i--) {
 			// inner-for loop to handle number column spaces
@@ -82,6 +89,7 @@ public class Day1AssignmentApplication {
 			// new column
 			System.out.println();
 		}
+
 	}
 
 	public static void main(String[] args) {
