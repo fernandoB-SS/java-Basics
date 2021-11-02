@@ -22,9 +22,26 @@ public class Day1AssignmentApplication {
 		}
 	}
 
-	// Star Pyramid
+	// Inverted right triangle function
 	// takes int n parameter
 	public static void invertedRightTriangle(int n) {
+		// int counter varibables for rows and columns
+		int i, j;
+		// outer-for loop to create # of rows
+		for (i = n; i >= 0; i--) {
+			// inner-for loop to create # of columns
+			for (j = 0; j <= i; j++) {
+				// print number of columns
+				System.out.print("* ");
+			}
+			// new column
+			System.out.println();
+		}
+	}
+
+	// Star Pyramid
+	// takes int n parameter
+	public static void starPyramid(int n) {
 		// int counter varibables for rows and columns
 		int i, j;
 		// outer-for loop to create # of rows
@@ -51,6 +68,7 @@ public class Day1AssignmentApplication {
 		// calling right triangle passing int 5
 		rightTriangle(5);
 		invertedRightTriangle(5);
+		starPyramid(5);
 	}
 
 }
