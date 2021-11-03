@@ -27,7 +27,6 @@ public class day2assignment2 {
                     index2 = j;
                 }
             }
-            // System.out.println("i : " + j);
         }
         System.out.println("index-I: " + index1 + " index-J: " + index2);
 
