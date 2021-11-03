@@ -13,7 +13,7 @@ public class day2assignment3 {
         public void display(); // interface method (does not have a body)
     }
 
-    // Rectangle "implements" the Animal interface
+    // Rectangle "implements" the Shape interface
     public static class Rectangle implements Shape {
         float area;
 
@@ -27,7 +27,7 @@ public class day2assignment3 {
         }
     }
 
-    // Triangle "implements" the Animal interface
+    // Triangle "implements" the Shape interface
     public static class Triangle implements Shape {
         float area;
 
@@ -41,7 +41,7 @@ public class day2assignment3 {
         }
     }
 
-    // Circle "implements" the Animal interface
+    // Circle "implements" the Shape interface
     public static class Circle implements Shape {
         double area;
 
@@ -51,7 +51,6 @@ public class day2assignment3 {
 
         public void display() {
             // The body of display() is provided here
-
             System.out.println("Circle area: " + String.format("%,.2f", area));
         }
     }

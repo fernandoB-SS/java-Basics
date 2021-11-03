@@ -33,8 +33,8 @@ public class day2assignment2 {
         SpringApplication.run(Day2AssignmentApplication.class, args);
         System.out.println("Day 2 Assingment 2");
         // matrix
-        int mat[][] = { { 1, 2, 3, 4 }, { 25, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 16 } };
+        int myArray[][] = { { 1, 2, 3, 4 }, { 25, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 16 } };
 
-        System.out.println(findMax(mat));
+        System.out.println(findMax(myArray));
     }
 }
