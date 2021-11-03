@@ -15,18 +15,22 @@ public class day2assignment2 {
         int maxElement = Integer.MIN_VALUE;
         // checking each element of matrix
         // if it is greater than maxElement,
+        int index1 = 0;
+        int index2 = 0;
         // update maxElement
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 if (mat[i][j] > maxElement) {
 
                     maxElement = mat[i][j];
-                    System.out.println("i : " + mat[i][j]);
+                    index1 = i;
+                    index2 = j;
                 }
             }
             // System.out.println("i : " + j);
-
         }
+        System.out.println("index-I: " + index1 + " index-J: " + index2);
+
         // finally return maxElement
         return maxElement;
     }
